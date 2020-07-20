@@ -6,8 +6,8 @@ import urllib.request as urllib
 from PIL import Image
 from SaitamaRobot import dispatcher
 from SaitamaRobot.modules.disable import DisableAbleCommandHandler
-from telegram import (InlineKeyboardButton, InlineKeyboardMarkup,
-                      ParseMode, TelegramError, Update)
+from telegram import (InlineKeyboardButton, InlineKeyboardMarkup, ParseMode,
+                      TelegramError, Update)
 from telegram.ext import CallbackContext, run_async
 from telegram.utils.helpers import escape_markdown
 
